@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        let command = prompt('敵が現れた！(【１】攻撃【２】逃げる');
+        let i =10;
+        let a= true
+        
+    
+        while(a){
+            let a = Math.floor(Math.random()*10);
+            
+            
+            if(command=='1'){
+            i=i-a
+            
+             console.log(a+'の攻撃！敵の体力は残り'+i+'です');
+        if(i <= 0)break;        
+            }
+        }
+    </script>
+</body>
+</html>
